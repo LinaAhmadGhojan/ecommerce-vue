@@ -15,7 +15,7 @@
                     </thead>
                     <tbody class="align-middle">
                         <tr>
-                            <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"> Product Name</td>
+                            <td class="align-middle"><img src="../assets/image/product-1.jpg" alt="" style="width: 50px;"> Product Name</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -36,7 +36,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-danger">x</button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-2.jpg" alt="" style="width: 50px;"> Product Name</td>
+                            <td class="align-middle"><img src="../assets/image/product-2.jpg" alt="" style="width: 50px;"> Product Name</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -57,7 +57,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-danger">x</button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-3.jpg" alt="" style="width: 50px;"> Product Name</td>
+                            <td class="align-middle"><img src="../assets/image/product-3.jpg" alt="" style="width: 50px;"> Product Name</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -78,7 +78,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-danger">x</button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-4.jpg" alt="" style="width: 50px;"> Product Name</td>
+                            <td class="align-middle"><img src="../assets/image/product-4.jpg" alt="" style="width: 50px;"> Product Name</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -99,7 +99,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-danger">x</button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-5.jpg" alt="" style="width: 50px;"> Product Name</td>
+                            <td class="align-middle"><img src="../assets/image/product-5.jpg" alt="" style="width: 50px;"> Product Name</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -222,7 +222,7 @@
                 </p>
             </div>
             <div class="col-md-6 px-xl-0 text-center text-md-right">
-                <img class="img-fluid" src="img/payments.png" alt="">
+                <img class="img-fluid" src="../assets/image/payments.png" alt="">
             </div>
         </div>
     </div>
