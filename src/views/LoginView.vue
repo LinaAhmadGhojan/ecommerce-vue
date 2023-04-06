@@ -1,10 +1,8 @@
 <template>
   <br>
-  <br>
-  <br>
-  <br>
+ 
   <div class="banner_bg_main" style="    text-align: center;
-  background: none #e6c319;
+  background: none rgb(255 211 51);
   width: 50%;
   margin-left: 24%;
   margin-top: 49px;
@@ -13,10 +11,10 @@
   <form @submit.prevent="login">
     <br><br>
     <div style="color: #000;font-size: large">
-      Email:
+      User Name:
     </div>
       
-      <input type="email" v-model="email" required style="height: 47px;
+      <input  type="text" v-model="username" required style="height: 47px;
       width: 79%;
       border: none;
       padding-left: 21px;
@@ -47,20 +45,20 @@ const baseUrl="http://127.0.0.1:8000/api/";
 export default {
   data() {
     return {
-      email: '',
-      password: ''
+      username: "mor_2314",
+                password: "83r5^_"
     }
   },
   methods: {
     async login() {
       // Send POST request with user's credentials
-      const response = await fetch(baseUrl+'login', {
+      const response = await fetch('https://fakestoreapi.com/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          email: this.email,
+          username: this.username,
           password: this.password
         })
       })

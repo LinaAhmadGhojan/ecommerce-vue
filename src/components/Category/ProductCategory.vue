@@ -1,40 +1,42 @@
 <template>
-   <!-- electronic section start -->
- <div class="fashion_section">
-    <div id="electronic_main_slider" class="carousel slide" data-ride="carousel">
-       <div class="carousel-inner">
-          <div class="carousel-item active">
-             <div class="container">
-                <h1 class="fashion_taital">{{category}}</h1>
-                <div class="fashion_section_2">
-                   <div class="row">
-                    
-                      <div v-for="product in products"  class="col-lg-4 col-sm-4">
-                         <div class="box_main">
-                            <h4 class="shirt_text">{{product.title}}</h4>
-                            <p class="price_text">Start Price  <span style="color: #262626;">$ {{product.price}}</span></p>
-                            <div class="electronic_img"><img  class="img_product" :src="product.image"></div>
-                            <div class="btn_main">
-                               <div class="buy_bt"><a href="#">Buy Now</a></div>
-                               <div class="seemore_bt"><a href="#">See More</a></div>
-                            </div>
-                         </div>
-                      </div>
-       
+ <!-- Products Start -->
+ <div class="container-fluid pt-5 pb-3">
+   <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">{{ category }} Products</span></h2>
+   <div class="row px-xl-5">
+
+       <div v-for="product in products" class="col-lg-3 col-md-4 col-sm-6 pb-1">
+           <div class="product-item bg-light mb-4">
+               <div class="product-img position-relative overflow-hidden">
+                   <img class="img-fluid w-100" :src="product.image" alt="" style="height: 400px;">
+                   <div class="product-action">
+                       <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                       <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                       <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                       <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                    </div>
-                </div>
-             </div>
-          </div>
-        
-
-
+               </div>
+               <div class="text-center py-4">
+                   <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                   <div class="d-flex align-items-center justify-content-center mt-2">
+                       <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-center mb-1">
+                       <small class="fa fa-star text-primary mr-1"></small>
+                       <small class="fa fa-star text-primary mr-1"></small>
+                       <small class="fa fa-star text-primary mr-1"></small>
+                       <small class="fa fa-star text-primary mr-1"></small>
+                       <small class="fa fa-star text-primary mr-1"></small>
+                       <small>(99)</small>
+                   </div>
+               </div>
+           </div>
        </div>
-   
-    </div>
- </div>
+    
+      
+   </div>
+</div>
+<!-- Products End -->
 
-
- 
 </template>
 
 

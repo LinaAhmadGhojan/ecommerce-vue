@@ -9,6 +9,7 @@ import './assets/scss/main.scss'
 
 
 
+
 const app = createApp(App)
 
 app.use(createPinia())

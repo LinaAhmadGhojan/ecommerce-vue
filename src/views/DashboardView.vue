@@ -1,15 +1,7 @@
 <template>
-  <div class="banner_bg_main" style="text-align: center;    background: none;">
-
-    <div class="products">
-      <div v-for="(product, index) in products" :key="index" class="product">
-        <img :src="product.image" alt="Product Image" class="product-image">
-        <h3 class="product-title">{{ product.title }}</h3>
-        <p class="product-price">{{ product.price }}</p>
-        <button class="add-to-cart-button" @click="addToCart(product)">Add to Cart</button>
-      </div>
-    </div>
-    </div>
+ <div>
+  dashboard
+ </div>
   </template>
   
   <script>

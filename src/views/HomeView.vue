@@ -1,148 +1,203 @@
 <template>
-   <!-- banner bg main start -->
-   <div class="banner_bg_main">
-    <!-- header top section start -->
+ 
 
-    <!-- header top section start -->
-    <!-- logo section start -->
-    <div class="logo_section">
-       <div class="container">
-          <div class="row">
-             <div class="col-sm-12">
-                <div class="logo"><a href="index.html"><img src="../assets/image/logo.png"></a></div>
-             </div>
-          </div>
-       </div>
-    </div>
-    <!-- logo section end -->
-    <!-- header section start -->
-    <div class="header_section">
-       <div class="container">
-          <div class="containt_main">
-            
-             <span class="toggle_icon" onclick="openNav()"><img src="../assets/image/toggle-icon.png"></span>
-             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
-                </button>
-              
-             </div>
-             <div class="main">
-                <!-- Another variation with a button -->
-                <div class="input-group">
-                   <input type="text" class="form-control" placeholder="Search this blog">
-                   <div class="input-group-append">
-                      <button class="btn btn-secondary" type="button" style="background-color: #f26522; border-color:#f26522 ">
-                      <i class="fa fa-search"></i>
-                      </button>
-                   </div>
-                </div>
-             </div>
-             <div class="header_box">
-                <div class="lang_box ">
-                   <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
-                   <img src="../assets/image/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
-                   </a>
-                   <div class="dropdown-menu ">
-                      <a href="#" class="dropdown-item">
-                      <img src="../assets/image/flag-france.png" class="mr-2" alt="flag">
-                      French
-                      </a>
-                   </div>
-                </div>
-                <div class="login_menu">
-                   <ul>
-                      <li><a href="#">
-                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                         <span class="padding_10">Cart</span></a>
-                      </li>
-                      <li><a href="#">
-                         <i class="fa fa-user" aria-hidden="true"></i>
-                         <span class="padding_10">Cart</span></a>
-                      </li>
-                   </ul>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
-    <!-- header section end -->
-    <!-- banner section start -->
-    <div class="banner_section layout_padding">
-       <div class="container">
-          <div id="my_slider" class="carousel slide" data-ride="carousel">
-             <div class="carousel-inner">
-                <div class="carousel-item active">
-                   <div class="row">
-                      <div class="col-sm-12">
-                         <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                         <div class="buynow_bt"><a href="#">Buy Now</a></div>
+
+  <!-- Carousel Start -->
+  <div class="container-fluid mb-3">
+      <div class="row px-xl-5">
+          <div class="col-lg-8">
+              <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#header-carousel" data-slide-to="1"></li>
+                      <li data-target="#header-carousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="carousel-item position-relative active" style="height: 430px;">
+                          <img class="position-absolute w-100 h-100" src="../assets/image/carousel-1.jpg" style="object-fit: cover;">
+                          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                              <div class="p-3" style="max-width: 700px;">
+                                  <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Men Fashion</h1>
+                                  <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                  <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                              </div>
+                          </div>
                       </div>
-                   </div>
-                </div>
-                <div class="carousel-item">
-                   <div class="row">
-                      <div class="col-sm-12">
-                         <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                         <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                      <div class="carousel-item position-relative" style="height: 430px;">
+                          <img class="position-absolute w-100 h-100" src="../assets/image/carousel-2.webp" style="object-fit: cover;">
+                          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                              <div class="p-3" style="max-width: 700px;">
+                                  <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Women Fashion</h1>
+                                  <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                  <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                              </div>
+                          </div>
                       </div>
-                   </div>
-                </div>
-                <div class="carousel-item">
-                   <div class="row">
-                      <div class="col-sm-12">
-                         <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                         <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                      <div class="carousel-item position-relative" style="height: 430px;">
+                          <img class="position-absolute w-100 h-100" src="../assets/image/carousel-3.jpg" style="object-fit: cover;">
+                          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                              <div class="p-3" style="max-width: 700px;">
+                                  <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Kids Fashion</h1>
+                                  <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                  <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                              </div>
+                          </div>
                       </div>
-                   </div>
-                </div>
-             </div>
-             <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-             <i class="fa fa-angle-left"></i>
-             </a>
-             <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-             <i class="fa fa-angle-right"></i>
-             </a>
+                  </div>
+              </div>
           </div>
-       </div>
-    </div>
-    <!-- banner section end -->
- </div>
+          <div class="col-lg-4">
+              <div class="product-offer mb-30" style="height: 200px;">
+                  <img class="img-fluid" src="../assets/image/offer-1.jpg" alt="">
+                  <div class="offer-text">
+                      <h6 class="text-white text-uppercase">Save 20%</h6>
+                      <h3 class="text-white mb-3">Special Offer</h3>
+                      <a href="" class="btn btn-primary">Shop Now</a>
+                  </div>
+              </div>
+              <div class="product-offer mb-30" style="height: 200px;">
+                  <img class="img-fluid" src="../assets/image/offer-2.jpg" alt="">
+                  <div class="offer-text">
+                      <h6 class="text-white text-uppercase">Save 20%</h6>
+                      <h3 class="text-white mb-3">Special Offer</h3>
+                      <a href="" class="btn btn-primary">Shop Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Carousel End -->
 
- <ProductCategory v-for="category in categories" :category="category" />
+
+  <!-- Featured Start -->
+  <div class="container-fluid pt-5">
+      <div class="row px-xl-5 pb-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+              <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                  <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                  <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+              <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                  <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                  <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+              <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                  <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                  <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+              <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                  <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                  <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Featured End -->
+
+
+  <!-- Categories Start -->
+  <div class="container-fluid pt-5">
+      <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Categories</span></h2>
+      <div class="row px-xl-5 pb-3">
+       
+        <Category v-for="category in categories" :category="category" />
+    
+     
+      </div>
+  </div>
+  <!-- Categories End -->
+  <ProductCategory v-for="category in categories" :category="category" />
+
+
+ 
+
+  
 
 
 
- <div class="footer_section layout_padding">
-    <div class="container">
-       <div class="footer_logo"><a href="index.html"><img src="../assets/image/footer-logo.png"></a></div>
-       <div class="input_bt">
-          <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
-          <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
-       </div>
-       <div class="footer_menu">
-          <ul>
-             <li><a href="#">Best Sellers</a></li>
-             <li><a href="#">Gift Ideas</a></li>
-             <li><a href="#">New Releases</a></li>
-             <li><a href="#">Today's Deals</a></li>
-             <li><a href="#">Customer Service</a></li>
-          </ul>
-       </div>
-       <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
-    </div>
- </div>
- <!-- footer section end -->
- <!-- copyright section start -->
- <div class="copyright_section">
-    <div class="container">
-       <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
-    </div>
- </div>
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
+      <div class="row px-xl-5 pt-5">
+          <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+              <h5 class="text-secondary text-uppercase mb-4">Get In Touch</h5>
+              <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
+              <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
+              <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
+              <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+          </div>
+          <div class="col-lg-8 col-md-12">
+              <div class="row">
+                  <div class="col-md-4 mb-5">
+                      <h5 class="text-secondary text-uppercase mb-4">Quick Shop</h5>
+                      <div class="d-flex flex-column justify-content-start">
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+                          <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                      <h5 class="text-secondary text-uppercase mb-4">My Account</h5>
+                      <div class="d-flex flex-column justify-content-start">
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                          <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+                          <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                      <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
+                      <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                      <form action="">
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Your Email Address">
+                              <div class="input-group-append">
+                                  <button class="btn btn-primary">Sign Up</button>
+                              </div>
+                          </div>
+                      </form>
+                      <h6 class="text-secondary text-uppercase mt-4 mb-3">Follow Us</h6>
+                      <div class="d-flex">
+                          <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+          <div class="col-md-6 px-xl-0">
+              <p class="mb-md-0 text-center text-md-left text-secondary">
+                  &copy; <a class="text-primary" href="#">Domain</a>. All Rights Reserved. Designed
+                  by
+                  <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
+              </p>
+          </div>
+          <div class="col-md-6 px-xl-0 text-center text-md-right">
+              <img class="img-fluid" src="../assets/image/payments.png" alt="">
+          </div>
+      </div>
+  </div>
+  <!-- Footer End -->
 </template>
 
 <script>
 import axios from 'axios'
 import ProductCategory from '../components/Category/ProductCategory.vue';
+import Category from '../components/Category/Ctegory.vue';
 const baseUrl="https://fakestoreapi.com";
 export default {
   data: function()
@@ -154,7 +209,7 @@ export default {
   } ;
 },
 components:{
-  ProductCategory
+  ProductCategory,Category
 },
 
 name:"home",
@@ -188,3 +243,4 @@ mounted() {
   }
 }
 </style>
+
